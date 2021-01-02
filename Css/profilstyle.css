@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    background-color: #2f375b;
+}
+nav h1 {
+    margin-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    margin-left: 65%;
+}
+li {
+     list-style: none;
+     margin-left: 10px;
+     margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+a  {
+    color: white;
+    text-decoration: none;
+    transition: 0,2s;
+}
+a:hover {
+    color: darkred;
+}
+.info {
+    height: 80vh;
+    background-color: #2f375b;
+}
+.name {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    color: #DD4943;
+    font-size: 45px;
+    font-family: monospace;
+    transition: 0.1s ease-in ;
+    cursor: pointer ;
+}
+.name:hover {
+    color: rgb(66, 241, 133);
+}
+.info section h4 {
+    font-size: 18px;
+    color: white;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+.info section .image {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img {
+    filter: brightness(0.7);
+}
+.image img:hover {
+    filter: brightness(1);
+    border-radius: 10px;
+}
+.info section img {
+    filter: brightness(0.7);
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+footer {
+  background-color: #353535;
+   display: flex;
+  justify-content: space-between;
+}
+footer .informations {
+    margin-bottom: 10px;
+}
+footer h1 {
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Prompt', sans-serif;
+}
+footer h3 {
+    color: #B29D00;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Prompt';
+}
+footer .social {
+    margin-top: 70px;
+}
+.social a img {
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.social a img:hover{
+    transform: rotateZ(360deg);
+    transition: 0.5s;
+}
+.copyrights h3 {
+    margin-right: 15px;
+    margin-top: 70px;
+    font-family: 'prompt';
+}
